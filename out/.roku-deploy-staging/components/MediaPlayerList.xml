@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<!-- ' ***************************************************
+' ** Media Player Task
+' **
+' ** Intive, Marek Jarosz, 15/03/2022
+' **
+' ** Component for showing list of movies and playing them with play/pause, seek, switch functionality
+' *************************************************** -->
+
+<component name="MediaPlayerList" extends="Scene">
+    <script type="text/brightscript" uri="pkg:/components/MediaPlayerList.brs"/>
+    <children>
+      <Label id="mediaPlayerTitle" />
+      <LabelList id ="videoLabelList" />  
+      <Poster id="tvPoster">  
+        <Poster id="videoPoster" />  
+        <Rectangle id="infoRectangle">  
+          <Label id="infoLabel" />  
+        </Rectangle>
+      </Poster>  
+      <VideoTimer id="exampleVideo"/>  
+    </children>
+</component>

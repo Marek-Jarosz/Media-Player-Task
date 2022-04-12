@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<!-- ' ***************************************************
+' ** Media Player Task
+' **
+' ** Intive, Marek Jarosz, 28/03/2022
+' **
+' ** Component for showing real time counter label always on display
+' *************************************************** -->
+
+<component name="VideoTimer" extends="Video">
+    <script type="text/brightscript" uri="pkg:/components/VideoTimer.brs"/>
+    <children>
+      <Label id="timeLabel"/>     
+    </children>
+</component>
